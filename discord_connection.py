@@ -20,7 +20,6 @@ client = discord.Client(intents = intents)
 async def on_ready():   # Runs on_ready event when Client has established connection to Discord
     print(f'{client.user} has connected to Discord!')
 
-print(f'Token = {TOKEN}')
 
 # Run Client using bot's token
 client.run(TOKEN)
