@@ -1,6 +1,5 @@
 yfinance
 discord.py
-plotly
 matplotlib
 pandas
 numpy
