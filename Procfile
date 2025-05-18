@@ -1,1 +1,1 @@
-worker: MarketWatchdog.py
+worker: python MarketWatchdog.py
