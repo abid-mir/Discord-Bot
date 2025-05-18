@@ -1,6 +1,5 @@
 yfinance
 discord.py
 matplotlib
-pandas
-numpy
 aiocron
+python-dotenv
