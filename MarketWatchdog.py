@@ -286,3 +286,7 @@ async def market_close_alert():
 # Run the Bot
 # ===============================
 bot.run(DISCORD_TOKEN)
+
+
+import webserver
+webserver.start_webserver()
