@@ -287,7 +287,3 @@ async def market_close_alert():
 # ===============================
 if __name__ == "__main__":
     bot.run(DISCORD_TOKEN)
-
-
-import webserver
-webserver.start_webserver()
