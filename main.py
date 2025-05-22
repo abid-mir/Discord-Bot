@@ -2,7 +2,7 @@
 import os
 import threading
 from flask import Flask
-from bot import bot, DISCORD_TOKEN  # assumes bot.py exports these
+from MarketWatchdog import bot, DISCORD_TOKEN  # assumes bot.py exports these
 
 app = Flask(__name__)
 
