@@ -286,4 +286,7 @@ async def market_close_alert():
 # Run the Bot
 # ===============================
 if __name__ == "__main__":
+    t = threading.Thread(target=run_webserver)
+    t.daemon = True
+    t.start()
     bot.run(DISCORD_TOKEN)
