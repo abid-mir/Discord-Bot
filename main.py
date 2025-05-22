@@ -21,6 +21,6 @@ def run_webserver():
 
 if __name__ == "__main__":
     # 1) start Flask in a background thread
-    threading.Thread(target=run_webserver).start()
+    threading.Thread(target=run_webserver, daemon=True).start()
     # 2) then start your Discord bot
     bot.run(DISCORD_TOKEN)
