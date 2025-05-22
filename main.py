@@ -12,8 +12,12 @@ def alive():
 
 def run_webserver():
     port = int(os.environ.get("PORT", 5000))
-    # bind to 0.0.0.0 so Render can route traffic in
-    app.run(host="0.0.0.0", port=port)
+    app.run(
+       host="0.0.0.0",
+        port=port,
+        debug=False,
+        use_reloader=False
+    )
 
 if __name__ == "__main__":
     # 1) start Flask in a background thread
